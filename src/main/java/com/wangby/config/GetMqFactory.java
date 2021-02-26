@@ -24,6 +24,7 @@ public class GetMqFactory {
 //                ActiveMQConnectionFactory.DEFAULT_PASSWORD,
 //                "tcp://localhost:61616"
 //        );
+        
         ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory(
                 "admin",
                 "admin",
